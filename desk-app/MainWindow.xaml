@@ -1,0 +1,9 @@
+﻿<Window x:Class="deskApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Name="btnConsultar" Content="Consultar Usuarios" Width="150" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10" Click="BtnConsultar_Click"/>
+        <DataGrid Name="dgUsuarios" AutoGenerateColumns="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,50,10,10"/>
+    </Grid>
+</Window>
